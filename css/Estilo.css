@@ -1,0 +1,218 @@
+/*esto es para notas */
+body{
+	background-image:url("../imagenes/flores.jpg");
+	color:#0A0200;
+	font-family:"mifuente2","Courier New", monospace;
+	font-size: 40px;
+}
+
+p{
+	text-align:center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+hr{
+	border: 3px solid #D5A027;
+	border-radius:5px; 
+	width: 80%;
+}
+table,tr,td{
+	border: 2px solid;
+	border-spacing: 0px;
+	border-color:#A87A0A;
+	background-color:#F8F9F0;
+	text-align:center;
+	font-size:20px;
+}
+ul{
+	list-style-type: disc;
+	list-style-position:inside;
+}
+ol{
+	list-style-type:upper-alpha;
+	list-style-position:inside;
+}
+@font-face{
+	font-family:mifuente;
+	src:url("../fonts/Shogie.otf");
+}
+.pie{
+	font-family:mifuente3;
+	font-size: 20px;
+	text-align:center;
+	font-weight: bold;
+}
+@font-face{
+	font-family:mifuente2;
+	src:url("../fonts/BRADHITC.ttf");
+ }
+ .parrafo{
+	font-family:mifuente2;
+	font-size:20px;
+	text-align:center;
+ }
+ @font-face{
+	font-family:mifuente3;
+	src:url("../fonts/ACaslonPro-Semibold.otf");
+ }
+.encabezado{
+	font-family:mifuente;
+	font-size:60px;
+	text-align:center;
+	font-weight: bold;
+}
+.img-marquee{
+	height:400px;
+	width:400px;
+}
+.img-controller{
+	height:50px;
+	width:50px;
+}
+.img-productos{
+	height:300px; 
+	width:300px;
+	border-radius: 5%;
+}
+div#top{
+	padding:50px;
+	width: 100%;
+	height: 50px;
+	background-image: linear-gradient(#DCB72B,#FFFF33);
+	/*background-color:#A48449;*/ 
+}
+div#piediv{
+	padding:50px;
+	width:100%;
+	height:50px;
+	background-image: linear-gradient(#FFFF33,#DCB72B);
+	/*background-color:#A48449;*/ 
+}
+div#principal{
+	padding:10px; 
+	width:100%;  
+	background-image:url("../imagenes/flores.jpg");
+}
+.caja{
+	height:440px;
+	width:300px;
+	background:#BFFCF5;
+	border:3px solid #F3F5F5;
+	margin:30px; 
+	color:black; 
+	text-align:center;
+	display:inline-block;
+	border-radius: 5%;
+}
+.caja:hover {
+	box-shadow: 0 0 20px white; 
+	transform:scale(1.3); 
+}
+.caja-texto{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color:black; 
+	font-weight:bold;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size:15px; 
+}
+.carrousel{
+	width:600px;
+	margin:auto;
+	/*hace que el padding y el borde, pasen a formar parte de la caja y no de la suma*/
+	box-sizing:border-box;
+}
+.conteCarrousel{
+	width:100%; 
+	height:400px;
+	/*hace que el navegador oculte todos los contenidos del div*/
+	overflow:hidden; 
+	box-sizing:border-box;
+}
+.itemCarrousel{
+	position:relative; 
+	/*que no se vaya a mover un elemento*/
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemCarrouselTarjeta{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemCarrouselArrows{
+	/**/
+	position:absolute;
+    top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	/*aqui me quede*/
+	display:flex; 
+	align-items:center;
+	justify-content:space-between;
+	padding:20px;
+	box-sizing:border-box;
+}
+.itemsCarrouselArrows>¡:hover{
+	cursor:pointer; 
+} 
+.conteCarrouselController{
+	width:100%;
+	display:flex;
+	justify-content:space-evenly;
+}
+.conteCarrouselController>a{
+	text-decoration:none;
+	font-size:32px;
+	color: grey:
+}
+.itemCarrouselArrows>a>i{
+	color:white;
+}
+/*aqui empieza la caja */
+.cajaProducto{
+	height:110px;
+	width:300px;
+	background:linear-gradient(#EAFAF8,#EAFAF8);
+	border:5px solid #05BDDA;
+	margin:0px; 
+	color:black; 
+	text-align:center;
+	display:inline-block;
+	border-radius: 5%;
+}
+.caja-textoP{
+	padding-top:35px;
+	padding-bottom:10px;
+	font-size:20px;
+	color:black; 
+	font-weight:bold;
+}
+*{
+	margin:0px;
+}
+.cajaProducto2{
+	height:115px;
+	width:300px;
+	background:#D4F179;
+	border:5px solid #9AC319;
+	margin:0px; 
+	color:black; 
+	text-align:center;
+	display:inline-block;
+	border-radius: 5%;
+}
+.texto-adicionalP{
+	padding-top:20px;
+	padding-bottom:2px;
+	font-size:15px;
+	text-align:center;
+}
